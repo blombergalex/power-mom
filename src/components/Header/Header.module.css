@@ -3,11 +3,14 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    position: sticky;
+    top: 0;
 }
 
 .header h1 {
     text-transform: uppercase;
-    align-self: center;
     letter-spacing: 0.6pc;
     margin: 16px;
+    position: sticky;
+    top: 0;
 }
