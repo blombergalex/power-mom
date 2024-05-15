@@ -1,5 +1,7 @@
+'use client'
 import styles from './Navigation.module.css'
 import Link from "next/link";
+import { usePathname } from 'next/navigation';
 
 const menuItems = [
     {
@@ -21,6 +23,8 @@ const menuItems = [
 ]
 
 const Navigation = () => {
+    const path = usePathname();
+    console.log(path);
 
     return(
         <nav className={styles.navigation}>
