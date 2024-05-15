@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    align-self: center;
+    letter-spacing: 0.7pc;
+    margin: 16px;
+}

@@ -1,0 +1,8 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro p {
+    margin: 16px;
+}

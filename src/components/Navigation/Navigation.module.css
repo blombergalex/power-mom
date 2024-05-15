@@ -1,0 +1,5 @@
+.navigation a {
+    padding: 4px;
+    color: lightcoral;
+    text-transform: capitalize;
+}
