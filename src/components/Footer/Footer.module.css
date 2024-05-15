@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+    padding: 32px;
+    color: grey;
+    border-top: 0.5px solid grey;
+}
+
+.footer:hover{
+    color: white;
+}
