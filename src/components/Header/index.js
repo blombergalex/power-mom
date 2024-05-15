@@ -4,7 +4,6 @@ import { Oswald } from "next/font/google"
 import { Lora } from "next/font/google"
 import styles from './Header.module.css'
 
-const oswald = Oswald({subsets: ["latin"]})
 const lora = Lora({subsets: ["latin"]})
 
 const Header = () => {

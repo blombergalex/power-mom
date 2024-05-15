@@ -1,0 +1,15 @@
+.submenu {
+    display: flex;
+    justify-content: center;
+}
+
+.subItem {
+    margin: 0 16px;
+    background-color: rgba(163, 162, 159, 0.521);
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.subItem:hover {
+    background-color: rgba(163, 162, 159, 0.68);
+}
