@@ -9,9 +9,13 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Power Mom",
   description: "My first Next.js app, a sight about all beautiful aspects of motherhood.",
+  icons: {
+    icon: "/dahlia.png"
+  }
 };
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
       <body className={inter.className}>
