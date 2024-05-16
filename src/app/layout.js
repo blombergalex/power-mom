@@ -7,8 +7,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Parenting blog",
-  description: "My first next app",
+  title: "Power Mom",
+  description: "My first Next.js app, a sight about all beautiful aspects of motherhood.",
 };
 
 export default function RootLayout({ children }) {

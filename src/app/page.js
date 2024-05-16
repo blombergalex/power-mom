@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className={styles.home}>
       <Introduction />
       <Image className={styles.motherhoodImg} src={Motherhood} alt="Motherhood"/>
     </main>
