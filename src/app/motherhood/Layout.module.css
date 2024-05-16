@@ -8,8 +8,16 @@
     background-color: rgba(163, 162, 159, 0.521);
     padding: 4px 8px;
     border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
 }
 
 .subItem:hover {
     background-color: rgba(163, 162, 159, 0.68);
+}
+
+@media screen and (min-width: 768px) {
+    .subItem {
+        font-size: 14px;
+    }
 }
