@@ -1,1 +1,1 @@
-First time trying out some routing in my first Next.js appliceation.Live at https://power-mom.vercel.app/
+First time trying out some routing in my first Next.js application.Live at https://power-mom.vercel.app/

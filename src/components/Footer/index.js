@@ -6,7 +6,7 @@ const Footer = () => {
 
     return(
         <footer className={styles.footer}>
-            <p> <a href='https://github.com/blombergalex' target='_blank'>@blombergalex</a> {currentDate}</p>
+            <p> <a href='https://github.com/blombergalex/power-mom' target='_blank'>@blombergalex</a> {currentDate}</p>
         </footer>
     )
 }

@@ -5,8 +5,10 @@
     padding: 32px;
     color: grey;
     border-top: 0.5px solid grey;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
-.footer:hover{
-    color: white;
+.footer p:hover{
+    color: darkgray;
 }

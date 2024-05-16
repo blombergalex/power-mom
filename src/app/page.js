@@ -7,8 +7,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Introduction />
-      <Image className={styles.motherhoodImg} src={Motherhood} alt="Motherhood"
-      />
+      <Image className={styles.motherhoodImg} src={Motherhood} alt="Motherhood"/>
     </main>
   );
 }
