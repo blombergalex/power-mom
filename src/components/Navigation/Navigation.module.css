@@ -1,5 +1,19 @@
+.navigation {
+    padding-bottom: 8px;
+}
+
 .navigation a {
     padding: 4px;
     color: lightcoral;
     text-transform: capitalize;
+}
+
+.navigation a .active {
+    font-weight: 700;
+}
+
+@media (hover:hover) and (pointer:fine) {
+    .navigation a:hover {
+        color: rgb(245, 161, 161);
+    }
 }

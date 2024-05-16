@@ -5,6 +5,14 @@
     text-align: center;
     position: sticky;
     top: 0;
+    background-color: var(--header-background-light);
+    height: fit-content;
+}
+
+@media (prefers-color-scheme: light) {
+    .header {
+        background-color: var(--header-background-light);
+    }
 }
 
 .header h1 {
@@ -12,4 +20,3 @@
     letter-spacing: 0.6pc;
     margin: 16px;
 }
-

@@ -1,7 +1,7 @@
 'use client'
-import styles from './Navigation.module.css'
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
+import styles from './Navigation.module.css'
 
 const menuItems = [
     {
@@ -24,12 +24,16 @@ const menuItems = [
 
 const Navigation = () => {
     const path = usePathname();
-    console.log(path);
 
     return(
         <nav className={styles.navigation}>
-            {menuItems.map((item, index) => 
-            <Link key={index} href={item.link}>{item.name}</Link>)}
+            {menuItems.map((item, index) => (
+                <Link key={index} href={item.link}>
+                    <span className={path === item.link ? styles.active : ''}>
+                        {item.name}
+                    </span>
+                </Link>
+            ))}
         </nav>
     )
 }
